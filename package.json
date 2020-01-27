@@ -1,0 +1,42 @@
+{
+  "name": "project_11",
+  "version": "0.0.1",
+  "description": "1. Актуальная версия **0.0.1**\r 2. Проект - проверка полученных знаний Git и Webpack\r 3. Проект - тренировка!\r 4. HTML, CSS, JS, GIT, Webpack\r",
+  "main": "index.js",
+  "scripts": {
+    "build": "rimraf dist && webpack --mode production",
+    "dev": "webpack-dev-server --mode development --open --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DariaGritsienko/project_11.git"
+  },
+  "author": "Daria Gritsienko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DariaGritsienko/project_11/issues"
+  },
+  "homepage": "https://github.com/DariaGritsienko/project_11#readme",
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "core-js": "^3.6.4",
+    "jquery": "^3.4.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.3",
+    "@babel/core": "^7.8.3",
+    "@babel/preset-env": "^7.8.3",
+    "autoprefixer": "^9.7.4",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.4.2",
+    "cssnano": "^4.1.10",
+    "gh-pages": "^2.2.0",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.9.0",
+    "postcss-loader": "^3.0.0",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.1",
+    "webpack-md5-hash": "0.0.6"
+  }
+}
