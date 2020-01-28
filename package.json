@@ -4,8 +4,9 @@
   "description": "1. Актуальная версия **0.0.1**\r 2. Проект - проверка полученных знаний Git и Webpack\r 3. Проект - тренировка!\r 4. HTML, CSS, JS, GIT, Webpack\r",
   "main": "index.js",
   "scripts": {
-    "build": "rimraf dist && webpack --mode production",
-    "dev": "webpack-dev-server --mode development --open --watch"
+     "dev": "webpack-dev-server --mode development --open --watch",
+     "build": "rimraf dist webpack --mode production",
+     "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
@@ -30,7 +31,7 @@
     "babel-loader": "^8.0.6",
     "css-loader": "^3.4.2",
     "cssnano": "^4.1.10",
-    "gh-pages": "^2.2.0",
+    "gh-pages": "^2.0.1",
     "html-webpack-plugin": "^3.2.0",
     "mini-css-extract-plugin": "^0.9.0",
     "postcss-loader": "^3.0.0",
